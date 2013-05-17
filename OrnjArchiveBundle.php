@@ -1,6 +1,6 @@
 <?php
 
-namespace Ornj\ArchiveBundle;
+namespace Ornj\Bundle\ArchiveBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
