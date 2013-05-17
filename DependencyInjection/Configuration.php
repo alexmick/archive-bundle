@@ -1,6 +1,6 @@
 <?php
 
-namespace Ornj\ArchiveBundle\DependencyInjection;
+namespace Ornj\Bundle\ArchiveBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

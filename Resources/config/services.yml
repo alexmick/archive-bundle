@@ -1,9 +1,9 @@
 parameters:
-#    ornj_archive.example.class: Ornj\ArchiveBundle\Example
+#    ornj_archive.example.class: Ornj\Bundle\ArchiveBundle\Example
 
 services:
     ornj_archive.zip:
-        class: Ornj\ArchiveBundle\Services\CreateZip
+        class: Ornj\Bundle\ArchiveBundle\Services\CreateZip
         arguments:
             - destination: 'web/uploads'
               overwrite: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ornj\ArchiveBundle\DependencyInjection;
+namespace Ornj\Bundle\ArchiveBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

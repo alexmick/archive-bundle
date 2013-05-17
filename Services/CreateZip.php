@@ -1,11 +1,11 @@
 <?php
 
-namespace Ornj\ArchiveBundle\Services;
+namespace Ornj\Bundle\ArchiveBundle\Services;
 
 use \ZipArchive;
 use Symfony\Component\HttpFoundation\File\Exception\AccessDeniedException;
 
-use Ornj\ArchiveBundle\Exception\InvalidFilesException;
+use Ornj\Bundle\ArchiveBundle\Exception\InvalidFilesException;
 
 class CreateZip
 {

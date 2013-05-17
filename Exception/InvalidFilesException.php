@@ -1,6 +1,6 @@
 <?php
 
-namespace Ornj\ArchiveBundle\Exception;
+namespace Ornj\Bundle\ArchiveBundle\Exception;
 
 class InvalidFilesException extends \Exception
 {
