@@ -29,10 +29,10 @@ $bundles = array(
 
 The service currently has a single method `create` which takes an array containing the following parameters:
 
-*  string filename: the name of the resulting archive
-*  array files: paths to the files that should be contained in the archive
-*  string destination: where to write the archive (if none is supplied, web/uploads will be used)
-*  bool overwrite: if the service should write over any archive with the same file name
+*  `string` __filename__: the name of the resulting archive
+*  `array` __files__: paths to the files that should be contained in the archive
+*  `string` __destination__: where to write the archive (if none is supplied, web/uploads will be used)
+*  `bool` __overwrite__: if the service should write over any archive with the same file name
 
 ```php
 $archive = $this->get('ornj_archive.zip');
